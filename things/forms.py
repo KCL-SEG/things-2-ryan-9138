@@ -3,7 +3,7 @@ from django import forms
 from django.forms import ModelForm
 from .models import Thing
 # Create your forms here.
-class ThingsForm(ModelForm):
+class ThingForm(ModelForm):
    class Meta:
        model = Thing
        fields = ['name', 'description', 'quantity']
